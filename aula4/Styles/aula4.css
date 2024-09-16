@@ -1,66 +1,76 @@
-html{
-    font-size:18pt;
-}
-body{
-    background-color:paleturquoise;
-    color:sandybrown;
-
-
-}
-h1{
-    color: midnightblue;
+html {
+    font-size: 18pt;
 }
 
-.btn{
-    background-color: lightskyblue;
+body {
+    background-color: #f0f8ff;
+    /* AliceBlue */
+    color: #2f4f4f;
+    /* DarkSlateGray */
+}
+
+h1 {
+    color: #2c3e50;
+    /* SteelBlue */
+}
+
+.btn {
+    background-color: #5f9ea0;
+    /* CadetBlue */
     color: white;
     padding: 7px 10px;
-    border: 2px solid lightslategray;
+    border: 2px solid #4682b4;
+    /* SteelBlue */
     border-radius: 5px;
     text-decoration: none;
     text-transform: capitalize;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
-    
-
 }
-.btn:active{
-    background-color: aliceblue;
+
+.btn:active {
+    background-color: #b0c4de;
+    /* LightSteelBlue */
     color: black;
 }
-.btn:hover{
-    color:pink;
+
+.btn:hover {
+    color: #666666;
+    /* HotPink */
 }
 
-.avatar{
+.avatar {
     width: 300px;
-    
-}
-.batima{
-    width:100%;
-
 }
 
-.container{
-    display:flex;
+.batima {
+    width: 100%;
+}
+
+.container {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    width:auto;
-    height:auto;
+    width: auto;
+    height: auto;
     max-width: 600px;
     max-height: 400px;
-    border: 5px solid slateblue;
+    border: 5px solid #4682b4;
+    /* SlateBlue */
     border-radius: 30px;
-    padding:25px 10px;
+    padding: 25px 10px;
 }
-.user{
-   width: 80px;
+
+.user {
+    width: 80px;
     height: 80px;
 }
-.container-info{
- line-height: 0.20em;
+
+.container-info {
+    line-height: 0.20em;
 }
-hr{
-    margin:0;
+
+hr {
+    margin: 0;
 }
