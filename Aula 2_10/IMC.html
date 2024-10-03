@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#res {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+    </style>
+    <p>insira o nome:</p>
+    <input id='nome' type="text">
+    <p>insira o peso</p>
+    <input id='peso' type="number">
+    <p>insira a altura</p>
+    <input id='altura' type="number">
+    
+
+    <p id="res"></p>
+
+    <button id="buta1" onclick="imc()">Calcular IMC</button>
+
+    <script>
+        function imc (){
+        let nome =  document.getElementById('nome').value
+        let peso = parseFloat( document.getElementById('peso').value)
+        let altura = parseFloat( document.getElementById('altura').value)
+
+        document.getElementById('res').innerHTML= "o IMC do "+nome+ " é: "+ (peso/(altura*altura))
+
+        }
+    </script>
+
+    <br>
+    <img src="https://th.bing.com/th/id/OIP.bWE8zxo24GQ1ABhmlE7q3QHaDo?w=339&h=171&c=7&r=0&o=5&pid=1.7" alt="">
+    
+</body>
+</html>
