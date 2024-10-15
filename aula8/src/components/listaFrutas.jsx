@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useEffect } from 'react'
-import 'virtual:windi.css'
 import Fruta from './fruta'
 
 
