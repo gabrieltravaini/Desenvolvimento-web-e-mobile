@@ -7,3 +7,5 @@ https://getbootstrap.com/docs/5.3/getting-started/introduction/
 Placeholder images em:
 https://picsum.photos/200/300
 
+
+backend pronto: https://github.com/mmamorim/minicrudserver
